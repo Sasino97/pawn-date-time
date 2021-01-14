@@ -17,21 +17,23 @@ The library was inspired by the .NET DateTime struct, however there are major di
 In memory, DateTimes are all stored in the "YMDhms" format, and all the functions expect this format, however, the library provides a way to parse and output strings in the major formats, separated by any 1-character separator.
 
 ### The supported date formats are:
-	
-    enum DateFormat
-    {
-        DateFormat.BigEndian,    // Year, Month, Day
-        DateFormat.LittleEndian, // Day, Month, Year
-        DateFormat.MiddleEndian  // Month, Day, Year
-    }
+```pawn
+enum DateFormat
+{
+	DateFormat.BigEndian,    // Year, Month, Day
+	DateFormat.LittleEndian, // Day, Month, Year
+	DateFormat.MiddleEndian  // Month, Day, Year
+}
+```
   
 ### The supported time formats are:
-	
-    enum TimeFormat
-    {
-        TimeFormat.H24, // 24 hours (0-23)
-        TimeFormat.H12  // 12 hours (1-12) + AM/PM
-    }
+```pawn
+enum TimeFormat
+{
+	TimeFormat.H24, // 24 hours (0-23)
+	TimeFormat.H12  // 12 hours (1-12) + AM/PM
+}
+```
 
 ## Functions
 
