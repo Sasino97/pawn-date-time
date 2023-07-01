@@ -1,10 +1,13 @@
-# DateTime By ![Sasinosoft](https://i.ibb.co/ZN8ykTc/Sasinosoft.png)
+# DateTime Utility Library for the Pawn Language
+
+## Warning
+While the library has been thoroughly tested and did not produce any known issue, it is provided "as is" (see points 6 and 7 of the license), and this repository is no longer maintained.
+
 
 ## Introduction
 
 This library provides useful functions to work with dates and times in Pawn. I've been using it for years now, together with other personal utility libraries, but today I decided to make this one available for use and open source.
 
-  
 
 ## Description
 
